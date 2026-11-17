@@ -130,9 +130,8 @@ img{max-width:100%;display:block}
 .team-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:15px}
 .member{background:#fff;border:1px solid var(--line);border-radius:22px;padding:12px 12px 20px;transition:.3s}
 .member:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
-.portrait{aspect-ratio:1/1.08;border-radius:16px;background:linear-gradient(145deg,#e7e9ee,#fbf7f5);display:grid;place-items:end center;overflow:hidden;position:relative}
-.portrait:before{content:"";position:absolute;width:44%;aspect-ratio:1;border-radius:50%;top:18%;background:#8993a3}
-.portrait:after{content:"";width:74%;height:47%;border-radius:50% 50% 0 0;background:linear-gradient(145deg,#f24509,#01112b)}
+.portrait{aspect-ratio:1/1.08;border-radius:16px;background:#f3f4f7;overflow:hidden}
+.portrait img{width:100%;height:100%;object-fit:cover}
 .member h3{font-size:.84rem;margin:16px 5px 2px}
 .role{font-size:.65rem;color:var(--teal);font-weight:800;margin:0 5px 9px}
 .bio{font-size:.67rem;color:var(--muted);margin:0 5px 14px;min-height:47px}
