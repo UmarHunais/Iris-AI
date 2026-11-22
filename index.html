@@ -21,7 +21,7 @@
       <nav class="nav-links" id="navLinks" aria-label="Main navigation">
         <a href="#home" class="active">Home</a><a href="#about">About</a><a href=
         "#features">Features</a><a href="#inquiry">Inquiry</a><a href="#team">Our Team</a>
-      </nav><a class="btn btn-primary" href="#inquiry">Get Started ↗</a><button class="menu-toggle"
+      </nav><a class="btn btn-primary" href="#inquiry">Get Started</a><button class="menu-toggle"
       id="menuToggle" aria-label="Open navigation" aria-expanded=
       "false"><span></span><span></span><span></span></button>
     </div>
@@ -36,8 +36,8 @@
           helping streamline diabetic retinopathy screening through advanced artificial
           intelligence.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#inquiry">Get Started ↗</a><a class=
-            "btn btn-secondary" href="#features">Explore Features ↓</a>
+            <a class="btn btn-primary" href="#inquiry">Get Started</a><a class=
+            "btn btn-secondary" href="#features">Explore Features</a>
           </div>
           <div class="trust-row">
             <div class="mini-avatars">
@@ -190,35 +190,57 @@
             <p>Review previous patient screenings and their associated results.</p>
           </article>
         </div>
-        <div class="workflow reveal">
-          <div class="workflow-head">
-            <h3>How IRIS AI Works</h3><span>A connected, five-step screening experience</span>
-          </div>
-          <div class="steps">
-            <div class="step">
-              <div class="step-icon">
-                1
-              </div><b>Patient Registration</b><small>Create a record</small>
+        <div class="workflow" data-workflow>
+          <div class="workflow-stage">
+            <div class="workflow-head">
+              <div>
+                <span class="workflow-kicker">Scroll through the process</span>
+                <h3>How IRIS AI Works</h3>
+              </div>
+              <span>A connected, five-step screening experience</span>
             </div>
-            <div class="step">
-              <div class="step-icon">
-                2
-              </div><b>Image Upload</b><small>Add fundus images</small>
+            <div class="steps" aria-label="IRIS AI screening workflow">
+              <article class="step is-active" data-workflow-step>
+                <div class="step-top"><span>Step 1 of 5</span><span>Start</span></div>
+                <h4>Patient<br>Registration</h4>
+                <p>Create a structured patient record and keep essential screening information
+                ready for the clinical workflow.</p>
+                <div class="step-foot"><span>Patient details</span><strong>01</strong></div>
+              </article>
+              <article class="step" data-workflow-step>
+                <div class="step-top"><span>Step 2 of 5</span><span>Upload</span></div>
+                <h4>Retinal Image<br>Upload</h4>
+                <p>Add and preview retinal fundus images through a focused interface before
+                beginning the screening process.</p>
+                <div class="step-foot"><span>Fundus images</span><strong>02</strong></div>
+              </article>
+              <article class="step" data-workflow-step>
+                <div class="step-top"><span>Step 3 of 5</span><span>Check</span></div>
+                <h4>Image<br>Validation</h4>
+                <p>Confirm that each uploaded image meets the requirements needed for reliable AI
+                analysis.</p>
+                <div class="step-foot"><span>Quality review</span><strong>03</strong></div>
+              </article>
+              <article class="step" data-workflow-step>
+                <div class="step-top"><span>Step 4 of 5</span><span>Analyze</span></div>
+                <h4>AI-Powered<br>Analysis</h4>
+                <p>Process validated images to identify potential signs associated with diabetic
+                retinopathy.</p>
+                <div class="step-foot"><span>Intelligent screening</span><strong>04</strong></div>
+              </article>
+              <article class="step" data-workflow-step>
+                <div class="step-top"><span>Step 5 of 5</span><span>Review</span></div>
+                <h4>Screening<br>Results</h4>
+                <p>Review clear, structured AI-generated findings designed to support professional
+                clinical judgment.</p>
+                <div class="step-foot"><span>Clinical findings</span><strong>05</strong></div>
+              </article>
             </div>
-            <div class="step">
-              <div class="step-icon">
-                3
-              </div><b>Image Validation</b><small>Confirm readiness</small>
-            </div>
-            <div class="step">
-              <div class="step-icon">
-                4
-              </div><b>AI Analysis</b><small>Run screening</small>
-            </div>
-            <div class="step">
-              <div class="step-icon">
-                5
-              </div><b>Screening Results</b><small>Review findings</small>
+            <div class="workflow-progress" aria-label="Workflow progress">
+              <span class="workflow-scroll-hint">Scroll to move through each step</span>
+              <div class="workflow-dots" aria-hidden="true">
+                <i class="is-active"></i><i></i><i></i><i></i><i></i>
+              </div>
             </div>
           </div>
         </div>
@@ -268,7 +290,7 @@
             <textarea id="message" required="" placeholder=
             "Tell us about your inquiry..."></textarea><span class="error">Please enter your
             message.</span>
-          </div><button class="btn btn-primary" type="submit">Send Inquiry ↗</button>
+          </div><button class="btn btn-primary" type="submit">Send Inquiry</button>
           <div class="form-message" id="formMessage" role="status"></div>
           <p class="form-note">Demo interface only. Ready for connection to your preferred form
           service.</p>
@@ -285,52 +307,52 @@
         </div>
         <div class="team-grid">
           <article class="member reveal">
-            <div class="portrait"><img src="assets/team-member-01.jpg" alt=
-            "Photo placeholder for team member 01"></div>
-            <h3>Team Member 01 — [Name]</h3>
-            <p class="role">[Role]</p>
-            <p class="bio">[Short biography placeholder for this team member.]</p>
+            <div class="portrait"><img src="assets/umar-hunais.png" alt=
+            "Portrait of Umar Hunais"></div>
+            <h3>Umar Hunais</h3>
+            <p class="role">Team Lead & Project Coordinator</p>
+            <p class="bio">Scrum Master</p>
             <div class="socials">
               <a href="#" aria-label="LinkedIn placeholder">in</a><a href="#" aria-label=
               "GitHub placeholder">GH</a>
             </div>
           </article>
           <article class="member reveal">
-            <div class="portrait"><img src="assets/team-member-02.jpg" alt=
+            <div class="portrait"><img src="assets/team-member-02.png" alt=
             "Photo placeholder for team member 02"></div>
-            <h3>Team Member 02 — [Name]</h3>
-            <p class="role">[Role]</p>
-            <p class="bio">[Short biography placeholder for this team member.]</p>
+            <h3>Sahan Senadheera</h3>
+            <p class="role">Product Lead & AI Development Coordinator</p>
+            <p class="bio">Product Owner</p>
             <div class="socials">
               <a href="#">in</a><a href="#">GH</a>
             </div>
           </article>
           <article class="member reveal">
-            <div class="portrait"><img src="assets/team-member-03.jpg" alt=
+            <div class="portrait"><img src="assets/team-member-03.png" alt=
             "Photo placeholder for team member 03"></div>
-            <h3>Team Member 03 — [Name]</h3>
-            <p class="role">[Role]</p>
-            <p class="bio">[Short biography placeholder for this team member.]</p>
+            <h3>Samadhi Nethmini</h3>
+            <p class="role">Requirements & Quality Assurance Lead</p>
+            <p class="bio">Development Team</p>
             <div class="socials">
               <a href="#">in</a><a href="#">GH</a>
             </div>
           </article>
           <article class="member reveal">
-            <div class="portrait"><img src="assets/team-member-04.jpg" alt=
-            "Photo placeholder for team member 04"></div>
-            <h3>Team Member 04 — [Name]</h3>
-            <p class="role">[Role]</p>
-            <p class="bio">[Short biography placeholder for this team member.]</p>
+            <div class="portrait"><img src="assets/mahmood-thalha.png" alt=
+            "Portrait of Mahmood Thalha"></div>
+            <h3>Mahmood Thalha</h3>
+            <p class="role">AI/ML Research & Development Lead</p>
+            <p class="bio">Development Team</p>
             <div class="socials">
               <a href="#">in</a><a href="#">GH</a>
             </div>
           </article>
           <article class="member reveal">
-            <div class="portrait"><img src="assets/team-member-05.jpg" alt=
+            <div class="portrait"><img src="assets/team-member-05.png" alt=
             "Photo placeholder for team member 05"></div>
-            <h3>Team Member 05 — [Name]</h3>
-            <p class="role">[Role]</p>
-            <p class="bio">[Short biography placeholder for this team member.]</p>
+            <h3>Suwen Perera</h3>
+            <p class="role">UI/UX Designer & Frontend Development Lead</p>
+            <p class="bio">Development Team</p>
             <div class="socials">
               <a href="#">in</a><a href="#">GH</a>
             </div>
@@ -345,7 +367,7 @@
             <h2>Take the Next Step Toward Smarter Retinal Screening.</h2>
             <p>Discover how IRIS AI can support a more streamlined, intelligent retinal screening
             workflow.</p>
-          </div><a class="btn" href="#inquiry">Get Started ↗</a>
+          </div><a class="btn" href="#inquiry">Get Started</a>
         </div>
       </div>
     </section>
@@ -361,7 +383,7 @@
           "assets/iris-logo-default.svg" alt="IRIS AI"></a>
           <p>Intelligent retinal screening.<br>
           Clearer workflows, considered care.</p><a class="footer-primary-link" href=
-          "#inquiry">Let's build it together <span>↗</span></a>
+          "#inquiry">Let's build it together</a>
           <div class="footer-socials">
             <a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="GitHub">GH</a>
           </div>
@@ -382,8 +404,7 @@
       </div>
       <div class="footer-contact">
         <div>
-          <span>GET IN TOUCH</span><a href="mailto:hello@iris-ai.example">hello@iris-ai.example
-          ↗</a>
+          <span>GET IN TOUCH</span><a href="mailto:hello@iris-ai.example">hello@iris-ai.example</a>
         </div>
         <p>A conversation first.<br>
         A smarter screening workflow, together.</p>
@@ -395,7 +416,7 @@
       <div class="footer-bottom">
         <span>© 2026 IRIS AI. All rights reserved.</span><span>IRIS AI is intended to support
         retinal screening workflows and does not replace professional medical
-        judgment.</span><a href="#home">Back to top ↑</a>
+        judgment.</span><a href="#home">Back to top</a>
       </div>
     </div>
   </footer>
@@ -445,6 +466,63 @@
     );
 
     reveals.forEach((element) => revealObserver.observe(element));
+
+    const workflow = document.querySelector('[data-workflow]');
+    const workflowCards = [...document.querySelectorAll('[data-workflow-step]')];
+    const workflowDots = [...document.querySelectorAll('.workflow-dots i')];
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    let workflowFrame;
+
+    const updateWorkflow = () => {
+      workflowFrame = null;
+
+      if (!workflow) return;
+
+      const bounds = workflow.getBoundingClientRect();
+      const workflowIsPinned = !reducedMotion.matches
+        && bounds.top <= 0
+        && bounds.bottom > innerHeight;
+
+      nav.classList.toggle('workflow-hidden', workflowIsPinned);
+
+      if (reducedMotion.matches) return;
+
+      const scrollRange = Math.max(workflow.offsetHeight - innerHeight, 1);
+      const progress = Math.min(Math.max(-bounds.top / scrollRange, 0), 1);
+      const cardPosition = progress * (workflowCards.length - 1);
+      const activeIndex = Math.round(cardPosition);
+      const cardGap = Math.min(innerWidth * 0.34, 500);
+
+      workflowCards.forEach((card, index) => {
+        const distance = index - cardPosition;
+        const absoluteDistance = Math.abs(distance);
+        const offsetX = distance * cardGap;
+        const offsetY = Math.min(absoluteDistance * 13, 38);
+        const scale = Math.max(0.72, 1 - absoluteDistance * 0.12);
+        const rotation = Math.max(-11, Math.min(11, distance * 4.8));
+        const opacity = absoluteDistance > 2.7 ? 0 : Math.max(0.16, 1 - absoluteDistance * 0.3);
+        const blur = Math.max(0, absoluteDistance - 1) * 1.4;
+
+        card.style.transform = `translate3d(calc(-50% + ${offsetX}px), calc(-50% + ${offsetY}px), 0) rotate(${rotation}deg) scale(${scale})`;
+        card.style.opacity = opacity;
+        card.style.filter = `blur(${blur}px)`;
+        card.style.zIndex = Math.round(100 - absoluteDistance * 10);
+        card.classList.toggle('is-active', index === activeIndex);
+        card.setAttribute('aria-hidden', index === activeIndex ? 'false' : 'true');
+      });
+
+      workflowDots.forEach((dot, index) => {
+        dot.classList.toggle('is-active', index === activeIndex);
+      });
+    };
+
+    const requestWorkflowUpdate = () => {
+      if (!workflowFrame) workflowFrame = requestAnimationFrame(updateWorkflow);
+    };
+
+    updateWorkflow();
+    addEventListener('scroll', requestWorkflowUpdate, { passive: true });
+    addEventListener('resize', requestWorkflowUpdate);
 
     const form = document.getElementById('inquiryForm');
     const message = document.getElementById('formMessage');
