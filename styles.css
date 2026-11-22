@@ -125,7 +125,7 @@ img { display: block; max-width: 100%; }
 .target-two { width: 24px; height: 24px; left: 58%; top: 61%; opacity: .7; }
 .target-two::before { width: 36px; left: -7px; top: 11px; }
 .target-two::after { height: 36px; left: 11px; top: -7px; }
-.preview-badge { position: absolute; z-index: 7; display: flex; align-items: center; gap: 10px; left: 9%; bottom: 13%; border: 1px solid rgba(255,255,255,.22); border-radius: 16px; padding: 10px 14px 10px 10px; background: rgba(7,19,38,.76); box-shadow: 0 12px 30px rgba(0,0,0,.22); backdrop-filter: blur(14px); font-size: .7rem; }
+.preview-badge { position: absolute; z-index: 7; display: flex; align-items: center; gap: 10px; top: 11%; right: 9%; border: 1px solid rgba(255,255,255,.22); border-radius: 16px; padding: 10px 14px 10px 10px; background: rgba(7,19,38,.76); box-shadow: 0 12px 30px rgba(0,0,0,.22); backdrop-filter: blur(14px); font-size: .7rem; }
 .preview-badge span { display: grid; width: 30px; height: 30px; place-items: center; border-radius: 9px; background: var(--orange); font-size: .65rem; }
 .console-metrics { position: absolute; z-index: 8; width: min(74%, 350px); left: 46px; bottom: 42px; display: grid; gap: 12px; }
 .console-metrics > div { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 13px 16px; border: 1px solid rgba(255,255,255,.12); border-radius: 15px; background: rgba(7,19,38,.68); backdrop-filter: blur(12px); }
